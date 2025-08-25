@@ -1,0 +1,103 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="max-width: 100%; height: auto;")
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:0.95" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="400" height="600" fill="url(#bgGradient)"/>
+  
+  <rect x="20" y="20" width="360" height="560" rx="20" fill="url(#cardGradient)" filter="url(#shadow)"/>
+  
+  <g transform="translate(200, 70)">
+    <circle cx="0" cy="0" r="25" fill="#ff6b6b" filter="url(#glow)"/>
+    <path d="M-15,-5 L-5,-15 L5,-15 L15,-5 L15,5 L10,15 L-10,15 L-15,5 Z" fill="white"/>
+    <circle cx="-8" cy="-5" r="3" fill="#ff6b6b"/>
+    <circle cx="8" cy="-5" r="3" fill="#ff6b6b"/>
+    <path d="M-8,5 Q0,12 8,5" stroke="#ff6b6b" stroke-width="2" fill="none"/>
+  </g>
+  
+  <text x="200" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="clamp(18px, 4vw, 24px)" font-weight="bold" fill="#2c3e50">🦴 Pilot Bone Blossom</text>
+  
+  <rect x="40" y="140" width="320" height="2" fill="#e74c3c" rx="1"/>
+  
+  <g transform="translate(60, 180)">
+    <rect x="0" y="0" width="280" height="80" rx="8" fill="#3498db" fill-opacity="0.1"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="clamp(12px, 2.5vw, 14px)" font-weight="bold" fill="#2c3e50">📔 Requirements</text>
+    
+    <g transform="translate(10, 25)">
+      <rect x="0" y="0" width="260" height="20" rx="4" fill="#ffffff" fill-opacity="0.7"/>
+      <text x="8" y="13" font-family="Arial, sans-serif" font-size="clamp(10px, 2vw, 11px)" fill="#2c3e50">🎯 Pet slots: 6-8</text>
+    </g>
+    
+    <g transform="translate(10, 50)">
+      <rect x="0" y="0" width="260" height="20" rx="4" fill="#ffffff" fill-opacity="0.7"/>
+      <text x="8" y="13" font-family="Arial, sans-serif" font-size="clamp(10px, 2vw, 11px)" fill="#2c3e50">🐱 Moon Cat (Must Have)</text>
+    </g>
+    
+    <g transform="translate(10, 75)">
+      <rect x="0" y="0" width="260" height="20" rx="4" fill="#ffffff" fill-opacity="0.7"/>
+      <text x="8" y="13" font-family="Arial, sans-serif" font-size="clamp(10px, 2vw, 11px)" fill="#2c3e50">🦕 Triceratops/Echo Frog (Must Have)</text>
+    </g>
+  </g>
+  
+  <g transform="translate(60, 305)">
+    <rect x="0" y="0" width="280" height="60" rx="8" fill="#2ecc71" fill-opacity="0.1"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="clamp(12px, 2.5vw, 14px)" font-weight="bold" fill="#2c3e50">💵 Price</text>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="clamp(10px, 2vw, 12px)" fill="#34495e">300PHP - 200-250KG</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="clamp(10px, 2vw, 12px)" fill="#34495e">1 Racoon - 150-200KG</text>
+  </g>
+  
+  <g transform="translate(60, 385)">
+    <rect x="0" y="0" width="280" height="40" rx="8" fill="#9b59b6" fill-opacity="0.1"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="clamp(12px, 2.5vw, 14px)" font-weight="bold" fill="#2c3e50">🏦 Bank</text>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="clamp(10px, 2vw, 12px)" fill="#34495e">Gcash • Paymaya</text>
+  </g>
+  
+  <g transform="translate(60, 445)">
+    <rect x="0" y="0" width="280" height="40" rx="8" fill="#f39c12" fill-opacity="0.1"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="clamp(12px, 2.5vw, 14px)" font-weight="bold" fill="#2c3e50">🔐 Security</text>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="clamp(10px, 2vw, 12px)" fill="#34495e">Your account will be secured.</text>
+  </g>
+  
+  <g transform="translate(200, 505)">
+    <rect x="-100" y="-18" width="200" height="36" rx="18" fill="#e74c3c" filter="url(#shadow)"/>
+    <rect x="-95" y="-13" width="190" height="26" rx="13" fill="#c0392b"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="clamp(13px, 3vw, 16px)" font-weight="bold" fill="white">💬 DM if interested</text>
+  </g>
+  
+  <g transform="translate(60, 550)">
+    <circle cx="10" cy="10" r="8" fill="#3498db"/>
+    <circle cx="40" cy="10" r="8" fill="#2ecc71"/>
+    <circle cx="70" cy="10" r="8" fill="#9b59b6"/>
+    <circle cx="100" cy="10" r="8" fill="#f39c12"/>
+    <circle cx="130" cy="10" r="8" fill="#e74c3c"/>
+    <circle cx="160" cy="10" r="8" fill="#1abc9c"/>
+    <circle cx="190" cy="10" r="8" fill="#34495e"/>
+    <circle cx="220" cy="10" r="8" fill="#e67e22"/>
+    <text x="10" y="35" font-family="Arial, sans-serif" font-size="clamp(8px, 1.5vw, 10px)" fill="#7f8c8d" text-anchor="middle">Slot</text>
+    <text x="40" y="35" font-family="Arial, sans-serif" font-size="clamp(8px, 1.5vw, 10px)" fill="#7f8c8d" text-anchor="middle">6-8</text>
+    <text x="100" y="35" font-family="Arial, sans-serif" font-size="clamp(8px, 1.5vw, 10px)" fill="#7f8c8d" text-anchor="middle">Available</text>
+    <text x="160" y="35" font-family="Arial, sans-serif" font-size="clamp(8px, 1.5vw, 10px)" fill="#7f8c8d" text-anchor="middle">Pets</text>
+  </g>
+  
+  <g transform="translate(200, 575)">
+    <rect x="-60" y="-8" width="120" height="16" rx="8" fill="#34495e" fill-opacity="0.1"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Arial, sans-serif" font-size="clamp(8px, 1.5vw, 10px)" fill="#7f8c8d">🌸 Premium Pet Service 🌸</text>
+  </g>
+</svg>
